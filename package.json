@@ -1,0 +1,15 @@
+{
+  "name": "laseo",
+  "version": "0.0.1",
+  "description": "SEO friendly lazy load images",
+  "author": "michalsnik",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "~2.0.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "~2.4.3",
+    "gulp-imagemin": "~2.2.0",
+    "gulp-uglify": "~1.1.0"
+  }
+}

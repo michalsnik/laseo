@@ -1,0 +1,10 @@
+body
+{
+    font-family: Helvetica,Tahoma;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "laseo",
+  "version": "0.0.1",
+  "homepage": "git://github.com/michalsnik/laseo.git",
+  "authors": [
+    "Michał Sajnóg <michal.sajnog@hotmail.com>"
+  ],
+  "main": [
+    "dist/laseo.js",
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "seo",
+    "lazy",
+    "load",
+    "images",
+    "responsive",
+    "img",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".gitignore",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {}
+}
