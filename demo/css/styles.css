@@ -8,3 +8,14 @@ body
 *:after {
     box-sizing: border-box;
 }
+
+section {
+  width: 1000px; margin: 250px auto 0 auto; max-width: 100%;
+}
+
+section .img-hld {width: 33%; padding: 10px; display: inline-block; float: left;}
+section img {width: 100%;}
+
+[data-laseo] {
+  background: url('../img/loader.gif') no-repeat center; background-size: 16%;
+}
