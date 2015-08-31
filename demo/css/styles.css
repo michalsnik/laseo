@@ -17,5 +17,10 @@ section .img-hld {width: 33%; padding: 10px; display: inline-block; float: left;
 section img {width: 100%;}
 
 [data-laseo] {
-  background: url('../img/loader.gif') no-repeat center; background-size: 16%;
+  opacity: 0; transition: all 0.3s ease; transform: scale(0.9);
+  /*background: url('../img/loader.gif') no-repeat center; background-size: 16%;*/
+}
+
+[data-laseo][data-laseo-loaded] {
+  opacity: 1; transform: scale(1);
 }
